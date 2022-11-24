@@ -277,6 +277,8 @@ class Index extends Twitter {
 			</div>
 		</form>
 
+		<h2><a href="/search/">Search all tweets</a></h2>
+
 		<div>
 			<h2><a href="/recent/">Recent:</a></h2>
 			<div class="twtr-sentiment twtr-sentiment-max js">
