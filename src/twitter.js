@@ -159,7 +159,7 @@ class Twitter {
 				} else {
 					let {targetUrl, className, displayUrl} = this.getUrlObject(url);
 					targetUrl = twitterLink(targetUrl);
-					let displayUrlHtml = `<a href="${targetUrl}" class="${className}"data-pagefind-index-attrs="href">${displayUrl}</a>`
+					let displayUrlHtml = `<a href="${targetUrl}" class="${className}" data-pagefind-index-attrs="href">${displayUrl}</a>`
 					text = text.replace(url.url, displayUrlHtml);
 
 					if(targetUrl.startsWith("https://") && !targetUrl.startsWith("https://twitter.com/")) {
